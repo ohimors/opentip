@@ -1,7 +1,8 @@
 repo_name: ohimors/opentip
 report_id: a5ec9126e730c0f777f8bf02ce2e0e26
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T00:22:41+00:00'
+timestamp: '2024-01-05T08:47:21+00:00'
 requested_by: enyo
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ohimors/opentip
   detection_source: Repo Metadata
 - name: CoffeeScript
   description: A little language that compiles into JavaScript
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/ohimors/opentip
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ohimors/opentip
   detection_source: Repo Metadata
 - name: jQuery
   description: The Write Less, Do More, JavaScript Library.
@@ -46,7 +50,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: bower.json
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/bower.json
   detection_source: bower.json
   last_updated_by: Javier Gonel
   last_updated_on: 2013-04-14 09:34:19.000000000 Z
@@ -58,6 +62,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ohimors/opentip
   detection_source: Repo Metadata
 - name: Grunt
   description: The JavaScript Task Runner
@@ -67,6 +72,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 23:11:12.000000000 Z
@@ -80,6 +86,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 21:15:30.000000000 Z
@@ -92,6 +99,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 21:15:30.000000000 Z
@@ -104,6 +112,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 23:22:48.000000000 Z
@@ -115,6 +124,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2012-08-15 14:46:48.000000000 Z
@@ -127,6 +137,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18000/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2012-08-15 14:46:48.000000000 Z
@@ -139,6 +150,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16029/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 21:06:57.000000000 Z
@@ -151,6 +163,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 23:11:12.000000000 Z
@@ -163,6 +176,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16284/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 23:11:12.000000000 Z
@@ -175,6 +189,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 23:11:12.000000000 Z
@@ -187,6 +202,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 23:11:12.000000000 Z
@@ -199,6 +215,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 23:11:12.000000000 Z
@@ -211,6 +228,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16868/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 21:15:30.000000000 Z
@@ -223,6 +241,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2013-04-05 20:20:13.000000000 Z
@@ -235,6 +254,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17840/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/ohimors/opentip/blob/master/package.json
   detection_source: package.json
   last_updated_by: Matias Meno
   last_updated_on: 2012-08-26 14:41:05.000000000 Z
